@@ -1,0 +1,49 @@
+@font-face{
+    font-family: beer_money;
+    src: url('../fonts/beer_money.ttf') format("truetype");
+}
+.Font{
+    font-family: 'beer_money';
+    font-size: 30px;
+    color: #c8cbcf;
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+.FontSmall{
+    font-family: 'beer_money';
+    font-size: 20px;
+    color: #c8cbcf;
+    margin-bottom: 0;
+}
+.FontMiddle{
+    font-family: 'beer_money';
+    font-size: 25px;
+    color: #c8cbcf;
+    margin-bottom: 0;
+}
+.FontDark{
+    font-family: 'beer_money';
+    font-size: 40px;
+    color:  #c8cbcf;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.FontWhite{
+    font-family: 'beer_money';
+    font-size: 40px;
+    color:  #424949 ;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.FontWhiteSmall{
+    font-family: 'beer_money';
+    font-size: 20px;
+    color:  #424949 ;
+}
+.copyright{
+    font-family: 'beer_money';
+    font-size: 20px;
+    color:  #c8cbcf;;
+}
