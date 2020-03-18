@@ -2,6 +2,9 @@
     font-family: beer_money;
     src: url('../fonts/beer_money.ttf') format("truetype");
 }
+body{
+    min-width: 320px;
+}
 .Font{
     font-family: 'beer_money';
     font-size: 30px;
