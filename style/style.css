@@ -1,64 +1,90 @@
-@font-face{
+@font-face {
     font-family: beer_money;
     src: url('../fonts/beer_money.ttf') format("truetype");
 }
-body{
+
+body {
     min-width: 320px;
 }
-.Font{
+
+.Font {
     font-family: 'beer_money';
     font-size: 30px;
     color: #c8cbcf;
     margin-bottom: 0;
     margin-top: 1%;
 }
-.FontSmall{
+
+.FontSmall {
     font-family: 'beer_money';
     font-size: 20px;
     color: #c8cbcf;
     margin-bottom: 0;
 }
-.FontMiddle{
+
+.FontMiddle {
     font-family: 'beer_money';
     font-size: 25px;
     color: #c8cbcf;
     margin-bottom: 0;
 }
-.FontDark{
+
+.FontDark {
     font-family: 'beer_money';
     font-size: 40px;
-    color:  #c8cbcf;
+    color: #c8cbcf;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.FontWhite{
+
+.FontWhite {
     font-family: 'beer_money';
     font-size: 40px;
-    color:  #424949 ;
+    color: #424949;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.FontWhiteSmall{
+
+.FontWhiteSmall {
     font-family: 'beer_money';
     font-size: 20px;
-    color:  #424949 ;
+    color: #424949;
 }
-.copyright{
+
+.copyright {
     font-family: 'beer_money';
     font-size: 20px;
-    color:  #c8cbcf;;
+    color: #c8cbcf;;
 }
+
+.action {
+    text-decoration: none;
+    color: #424949;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.face {
+    padding-left: 20px;
+}
+
+.action:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 576px) {
-    #home img{
-        width: 25%!important;
-        height: 25%!important;
+    #home img {
+        width: 25% !important;
+        height: 25% !important;
     }
 }
+
 @media screen and (min-width: 576px) {
-    #carouselExampleControls{
-        width: 50%!important;
+    #carouselExampleControls {
+        width: 50% !important;
     }
 }
 
